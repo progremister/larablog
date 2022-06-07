@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    
+    <!-- Useful meta tags -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="robots" content="index, follow">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="">
+    
+    <title></title>
+</head>
+
+<body>
+
+    <div class="page">
+        <!-- Header -->
+        <header class="header">
+            <div class="header__left">
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li>
+                            <a href="../index.html" class="nav__link">Головна</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link has-subnav">Статті</a>
+        
+                            <ul class="subnav">
+                                <li>
+                                    <a href="#" class="subnav__link" id="">Створення сайтів</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="subnav__link" id="">Інтернет-маркетинг</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="subnav__link" id="">Просування відео</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="about.html" class="nav__link">Про мене</a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav__link">Реклама</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header__right">
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li>
+                            <a href="profile.html" class="nav__link">Профіль</a>
+                        </li>
+                        <li>
+                            <a href="sign-in.html" class="nav__link">Вийти</a>
+                        </li>
+                    </ul>
+                </nav>
+                <form class="search" action="search.html" method="GET">
+                    <input type="text" class="search__input" id="" placeholder="Пошук по блогу">
+                </form>
+            </div>
+        </header>
+        
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar__header">
+                <img src="../assets/images/sidebar/sidebar-header.jpg" alt="">
+            </div>
+            <div class="sidebar__content">
+                <div class="profile">
+                    <img class="profile__avatar" src="../assets/images/sidebar/avatar.jpg" alt="">
+                    <div class="profile__name">Дмитро Колосовський</div>
+                    <div class="profile__prof">блог web-розробника</div>
+                    
+                    <ul class="social">
+                        <li class="social__item">
+                            <a class="social__link" href="https://www.instagram.com/dima.kolosovskyi/" target="_blank">
+                                <img src="../assets/images/sidebar/social/instagram.svg" alt="Instagram">
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a class="social__link" href="https://twitter.com/d_kolosovskyi" target="_blank">
+                                <img src="../assets/images/sidebar/social/twitter.svg" alt="Twitter">
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a class="social__link" href="https://www.facebook.com/dmitro.kolosovskyi.3" target="_blank">
+                                <img src="../assets/images/sidebar/social/facebook.svg" alt="Facebook">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="profile__text">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere placeat illo, reiciendis, blanditiis impedit excepturi corporis itaque numquam, id quis ipsam nobis vitae distinctio dolorem et dolor officiis. Modi, optio?</p>  
+            </div>
+            <div class="sidebar__footer">
+                <a class="btn btn--red" href="works.html"> Мої роботи </a>
+                <button type="button" class="btn btn--blue">Написати мені</button>
+            </div>
+        </aside>        
+        <!-- Main -->
+        <main class="main">
+            <div class="container">
+                <style>
+                
+                    .header{
+                        display: none;
+                    }
+                
+                    .sidebar{
+                        display: none;
+                    }
+                
+                    .main{
+                        padding: 0;
+                    }
+                
+                </style>
+                
+                <h1 class="page__title page__title--center">Відновити пароль</h1>
+                <form action="/" class="form form--auth" method="post">
+                    <div class="form__group form__group--mb">
+                        <input class="form__control" type="email" name="" id="" placeholder="Ваш e-mail">
+                        <span class="form__line"></span>
+                    </div>
+                    <div class="form__footer form__footer--center">
+                        <div class="form__group form__group--mb">
+                            <button class="btn btn--blue btn--rounded  btn--sm" type="submit">Відновити</button>
+                        </div>
+                        <ul class="form__footer-list">
+                            <li>
+                                <a href="sign-in.html">Вхід</a>    
+                            </li>
+                            <li>
+                                <a href="sign-up.html">Реєстрація</a>    
+                            </li>
+                        </ul>
+                    </div>
+                </form>
+            </div>
+        </main>
+    </div>
+        
+
+    <!-- JS -->
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>
