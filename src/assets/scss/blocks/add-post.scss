@@ -4,64 +4,66 @@
     background-color: $secondary;
     box-shadow: 0 15px 25px rgba($black, .45);
     border-radius: 5px;
-}
 
-.add-post__form{
-    display: flex;
-    align-items: center;
+    &__form{
+        display: flex;
+        align-items: center;
 
-    textarea{
+        textarea{
+            display: block;
+            flex-grow: 1;
+            height: 26px;
+            border: none;
+            resize:none;
+            overflow: hidden;
+            background: transparent;
+            font-family: inherit;
+            font-size: 1.5rem;
+            color: $white;
+
+            &::placeholder{
+                color: #d2d2d2;
+            }
+
+        }
+    }
+
+    &__form-actions{
+        width: 12rem;
+        flex-shrink: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__file,
+    &__send{
         display: block;
-        width: 80%;
-        height: 26px;
-        border: none;
-        resize:none;
-        background: transparent;
-        font-family: inherit;
-        font-size: 1.5rem;
-        color: $white;
+        border:none;
+        border-radius: 50%;
+        cursor: pointer;
+        width: 4.4rem;
+        height: 4.4rem;
 
-        &::placeholder{
-            color: #d2d2d2;
+        transition: background-color .2s linear;
+    }
+
+    &__file{
+        background: #ebebeb url("../images/icons/add-photo.svg") center no-repeat ;
+        
+        input{
+            display: none;
         }
 
-    }
-}
-
-.add-post__form-actions{
-    width: 20%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.add-post__file,
-.add-post__send{
-    display: block;
-    border:none;
-    border-radius: 50%;
-    cursor: pointer;
-    width: 4.4rem;
-    height: 4.4rem;
-
-    transition: background-color .2s linear;
-}
-
-.add-post__file{
-    background: #ebebeb url("../images/icons/add-photo.svg") center no-repeat ;
-    
-    input{
-        display: none;
+        &:hover{
+            background-color: darken(#ebebeb, 10%);
+        }
     }
 
-    &:hover{
-        background-color: darken(#ebebeb, 10%);
-    }
-}
+    &__send{
+        background: $blue url("../images/icons/send-post.svg") center no-repeat ;
 
-.add-post__send{
-    background: $blue url("../images/icons/send-post.svg") center no-repeat ;
-
-    &:hover{
-        background-color: darken($blue, 10%);
+        &:hover{
+            background-color: darken($blue, 10%);
+        }
     }
 }

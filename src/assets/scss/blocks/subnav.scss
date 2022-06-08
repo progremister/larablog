@@ -10,6 +10,14 @@
     position: absolute;
     top: 100%;
     left: 0;
+
+    @include breakpoint($tablet) {
+        position: static;
+        width: 100%;
+        background-color: transparent;
+        box-shadow: none;
+        padding-left: 4rem;
+    }
 }
 
 .subnav__link{
@@ -22,6 +30,16 @@
 
     &:hover{
         background-color: darken($blue,10%);
+        text-decoration: none;
+    }
+
+    @include breakpoint($tablet) {
+        padding: auto 0;
+        font-size: 1.4rem;
+    }
+
+    &:hover{
+        background: none;  
         text-decoration: none;
     }
 }

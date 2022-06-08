@@ -585,7 +585,7 @@ a:hover {
     margin-top: -5rem;
 }
 
-.sidebar__link {
+.sidebar .social img {
     width: 2.5rem;
 }
 
@@ -1392,6 +1392,7 @@ embed,
 .modal {
     display: -ms-flexbox;
     display: flex;
+    display: none;
     -ms-flex-pack: center;
     justify-content: center;
     -ms-flex-align: center;
