@@ -479,7 +479,7 @@ a {
   .sidebar__content {
     padding: 0 2rem;
     margin-top: -5rem; }
-  .sidebar__link img {
+  .sidebar .social img {
     width: 2.5rem; }
   .sidebar__footer {
     display: flex;
