@@ -3,7 +3,12 @@
     margin-bottom: 3rem;
     background-color: $secondary;
     box-shadow: 0 15px 25px rgba($black, .45);
-    border-radius: 5px;
+    border-radius: .5rem;
+
+    @include breakpoint($mobile) {
+        padding: 1.5rem;
+    }
+
 
     &__form{
         display: flex;
@@ -26,13 +31,17 @@
             }
 
         }
-    }
 
-    &__form-actions{
-        width: 12rem;
-        flex-shrink: 0;
-        display: flex;
-        justify-content: space-between;
+        &-actions{
+            width: 12rem;
+            flex-shrink: 0;
+            display: flex;
+            justify-content: space-between;
+
+            @include breakpoint($mobile) {
+                width: 9rem;
+            }
+        }
     }
 
     &__file,
@@ -45,6 +54,12 @@
         height: 4.4rem;
 
         transition: background-color .2s linear;
+
+        @include breakpoint($mobile) {
+            width: 3.4rem;
+            height: 3.4rem;
+            background-size: 1.5rem;
+        }
     }
 
     &__file{
