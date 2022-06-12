@@ -1,7 +1,17 @@
-// Body
-$body-bg: #f8fafc;
 
-// Typography
-$font-family-sans-serif: 'Nunito', sans-serif;
-$font-size-base: 0.9rem;
-$line-height-base: 1.6;
+$primary:   #202020;
+$secondary: #121212;
+$white:     #fff;
+$black:     #0000;
+$red:       #ed3024;
+$blue:      #3137c9;
+
+$z-index-sidebar: 1000;
+$z-index-header: 1000;
+$z-index-modal: 10000;
+
+
+$sidebar-width: 300px;
+
+$tablet: 950px; 
+$mobile: 575px;
