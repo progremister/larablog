@@ -20,8 +20,8 @@ return new class extends Migration
             $table->string('image_path')->nullable();
             $table->text('content');
             $table->string('url_key')->unique();
-            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
-            $table->foreign('category_id')->references('id')->on('categories')->onDelete('cascade');
+            $table->unsignedBigInteger('user_id')->unsigned();
+            $table->unsignedBigInteger('category_id')->unsigned();
             $table->timestamps();
         });
     }
