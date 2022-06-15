@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    
+    <!-- Useful meta tags -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="robots" content="index, follow">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="">
+    
+    <title></title>
+</head>
+
+<body>
+
+    <div class="page" id="page">
+        <!-- Header -->
+        <header class="header">
+            <div class="header__left">
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li>
+                            <a href="index.html" class="nav__link">Головна</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link has-subnav">Статті</a>
+        
+                            <ul class="subnav">
+                                <li>
+                                    <a href="#" class="subnav__link" id="">Створення сайтів</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="subnav__link" id="">Інтернет-маркетинг</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="subnav__link" id="">Просування відео</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- <li>
+                            <a href="about.html" class="nav__link">Про мене</a>
+                        </li> -->
+                    </ul>
+                </nav>
+            </div>
+        
+            <button class="burger" type="button" id="burger">
+                <span></span>
+            </button>
+        
+            <div class="header__right">
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li>
+                            <a href="profile.html" class="nav__link">Профіль</a>
+                        </li>
+                        <li>
+                            <a href="sign-in.html" class="nav__link">Вийти</a>
+                        </li>
+                    </ul>
+                </nav>
+                <form class="search" action="search.html" method="GET">
+                    <input type="text" class="search__input" id="" placeholder="Пошук по блогу">
+                </form>
+            </div>
+        </header>
+        
+        <!-- Sidebar -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar__header">
+                <img src="assets/images/sidebar/sidebar-header.jpg" alt="">
+            </div>
+            <div class="sidebar__content">
+                <div class="profile">
+                    <img class="profile__avatar" src="assets/images/sidebar/avatar.jpg" alt="">
+                    <div class="profile__header">
+                        <div class="profile__name">Дмитро Колосовський</div>
+                        <div class="profile__prof">блог web-розробника</div>
+                    </div>
+                    
+                    <ul class="social">
+                        <li class="social__item">
+                            <a class="social__link" href="https://www.instagram.com/dima.kolosovskyi/" target="_blank">
+                                <img src="assets/images/sidebar/social/instagram.svg" alt="Instagram">
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a class="social__link" href="https://twitter.com/d_kolosovskyi" target="_blank">
+                                <img src="assets/images/icons/twitter.png" alt="Twitter">
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a class="social__link" href="https://www.facebook.com/dmitro.kolosovskyi.3" target="_blank">
+                                <img src="assets/images/icons/facebook.png" alt="Facebook">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+        
+                <nav class="nav nav--mobile">
+                    <ul class="nav__list">
+                        <li>
+                            <a href="index.html" class="nav__link">Головна</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link has-subnav" id="accordion">Статті</a>
+            
+                            <ul class="subnav subnav--sidebar" id="subnav">
+                                <li>
+                                    <a href="#" class="subnav__link" id="">Створення сайтів</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="subnav__link" id="">Інтернет-маркетинг</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="subnav__link" id="">Просування відео</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- <li>
+                            <a href="about.html" class="nav__link">Про мене</a>
+                        </li> -->
+                        <li>
+                            <a href="profile.html" class="nav__link">Профіль</a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav__link">Вийти</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        
+            
+        
+            <div class="profile__text">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere placeat illo, reiciendis, blanditiis impedit excepturi corporis itaque numquam, id quis ipsam nobis vitae distinctio dolorem et dolor officiis. Modi, optio?</p>  
+            </div>
+            <div class="sidebar__footer">
+                <button type="button" class="btn btn--red" data-modal="contact-modal">Зв'язатися</button>
+                <a class="btn btn--blue" href="works.html">Мої роботи</a>
+            </div>
+        </aside>        
+        <!-- Main -->
+        <main class="main">
+            <div class="container">
+                <h1 class="page__title">Мої роботи</h1>
+                <article class="work">
+                    <div class="work__preview">
+                        <a href="https://progremister.github.io/portfolio/"><img src="assets/images/works/portfolio.jpg" alt=""></a>
+                    </div>
+                    <div class="work__content">
+                        <h2 class="work__title">
+                            <a href="https://progremister.github.io/portfolio/" target="_blank">my-portfolio.com</a>
+                        </h2>
+                        <div class="work__description">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi atque fuga, dolor illo nesciunt ipsa soluta repudiandae est reprehenderit provident itaque officiis saepe enim modi ab commodi, qui placeat vitae.</p>
+                        </div>
+                        <ul class="tags">
+                            <li class="tags__item">дизайн</li>
+                            <li class="tags__item">створення сайтів</li>
+                            <li class="tags__item">резюме</li>
+                        </ul>
+                        <div class="work__btn">
+                            <a class="btn btn--blue  btn--rounded btn--sm" href="https://progremister.github.io/portfolio/" target="_blank">Перейти на сайт</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="work">
+                    <div class="work__preview">
+                        <a href="https://progremister.github.io/mogo/"><img src="assets/images/works/mogo.jpg" alt=""></a> 
+                    </div>
+                    <div class="work__content">
+                        <h2 class="work__title">
+                            <a href="https://progremister.github.io/mogo/" target="_blank">mogo.com</a>
+                        </h2>
+                        <div class="work__description">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi atque fuga, dolor illo nesciunt ipsa soluta repudiandae est reprehenderit provident itaque officiis saepe enim modi ab commodi, qui placeat vitae.</p>
+                        </div>
+                        <ul class="tags">
+                            <li class="tags__item">дизайн</li>
+                            <li class="tags__item">створення сайтів</li>
+                            <li class="tags__item">SMM</li>
+                        </ul>
+                        <div class="work__btn">
+                            <a class="btn btn--blue  btn--rounded btn--sm" href="https://progremister.github.io/mogo/" target="_blank">Перейти на сайт</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="work">
+                    <div class="work__preview">
+                         <a href="https://progremister.github.io/active-box/"><img src="assets/images/works/activebox.jpg" alt=""></a>
+                    </div>
+                    <div class="work__content">
+                        <h2 class="work__title">
+                            <a href="https://progremister.github.io/active-box/" target="_blank">activebox.com</a>
+                        </h2>
+                        <div class="work__description">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi atque fuga, dolor illo nesciunt ipsa soluta repudiandae est reprehenderit provident itaque officiis saepe enim modi.</p>
+                        </div>
+                        <ul class="tags">
+                            <li class="tags__item">дизайн</li>
+                            <li class="tags__item">створення сайтів</li>
+                            <li class="tags__item">SMM</li>
+                        </ul>
+                        <div class="work__btn">
+                            <a class="btn btn--blue  btn--rounded btn--sm" href="https://progremister.github.io/active-box/" target="_blank">Перейти на сайт</a>
+                        </div>
+                    </div>
+                </article>
+                
+            </div>
+        </main>
+    </div>
+
+    <div class="modal" id="story-modal">
+        <button class="modal__close" type="button">
+            <img src="assets/images/icons/close.svg" alt="Close">
+        </button>
+    
+        <div class="modal__content modal__content--story">
+            <video class="modal__video" src="assets/videos/sea.mp4" poster="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAaQAAAH0CAYAAABywlnCAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAABpKADAAQAAAABAAAB9AAAAAA9eTIJAAAgO0lEQVR4Ae3dZ28k17UFUMqWc87Zlm3Isg37//8JAf5iG5DhnHPOSe9tAv3enVKz2SSnRrt5VgEjpu7qc9e5qM1bVU099/LLL796ZSNAgAABAq+zwBte59f38gQIECBA4FpAIJkIBAgQIFAhIJAq2qAIAgQIEBBI5gABAgQIVAgIpIo2KIIAAQIEBJI5QIAAAQIVAgKpog2KIECAAAGBZA4QIECAQIWAQKpogyIIECBAQCCZAwQIECBQISCQKtqgCAIECBAQSOYAAQIECFQICKSKNiiCAAECBASSOUCAAAECFQICqaINiiBAgAABgWQOECBAgECFgECqaIMiCBAgQEAgmQMECBAgUCEgkCraoAgCBAgQEEjmAAECBAhUCAikijYoggABAgQEkjlAgAABAhUCAqmiDYogQIAAAYFkDhAgQIBAhYBAqmiDIggQIEBAIJkDBAgQIFAhIJAq2qAIAgQIEBBI5gABAgQIVAgIpIo2KIIAAQIEBJI5QIAAAQIVAgKpog2KIECAAAGBZA4QIECAQIWAQKpogyIIECBAQCCZAwQIECBQISCQKtqgCAIECBAQSOYAAQIECFQICKSKNiiCAAECBASSOUCAAAECFQICqaINiiBAgAABgWQOECBAgECFgECqaIMiCBAgQEAgmQMECBAgUCEgkCraoAgCBAgQEEjmAAECBAhUCAikijYoggABAgQEkjlAgAABAhUCAqmiDYogQIAAAYFkDhAgQIBAhYBAqmiDIggQIEBAIJkDBAgQIFAhIJAq2qAIAgQIEBBI5gABAgQIVAgIpIo2KIIAAQIEBJI5QIAAAQIVAgKpog2KIECAAAGBZA4QIECAQIWAQKpogyIIECBAQCCZAwQIECBQISCQKtqgCAIECBAQSOYAAQIECFQICKSKNiiCAAECBASSOUCAAAECFQICqaINiiBAgAABgWQOECBAgECFgECqaIMiCBAgQEAgmQMECBAgUCEgkCraoAgCBAgQEEjmAAECBAhUCAikijYoggABAgQEkjlAgAABAhUCAqmiDYogQIAAAYFkDhAgQIBAhYBAqmiDIggQIEBAIJkDBAgQIFAhIJAq2qAIAgQIEBBI5gABAgQIVAgIpIo2KIIAAQIEBJI5QIAAAQIVAgKpog2KIECAAAGBZA4QIECAQIWAQKpogyIIECBAQCCZAwQIECBQISCQKtqgCAIECBAQSOYAAQIECFQICKSKNiiCAAECBASSOUCAAAECFQICqaINiiBAgAABgWQOECBAgECFgECqaIMiCBAgQEAgmQMECBAgUCEgkCraoAgCBAgQEEjmAAECBAhUCAikijYoggABAgQEkjlAgAABAhUCAqmiDYogQIAAAYFkDhAgQIBAhYBAqmiDIggQIEBAIJkDBAgQIFAhIJAq2qAIAgQIEBBI5gABAgQIVAgIpIo2KIIAAQIEBJI5QIAAAQIVAgKpog2KIECAAAGBZA4QIECAQIWAQKpogyIIECBAQCCZAwQIECBQISCQKtqgCAIECBAQSOYAAQIECFQICKSKNiiCAAECBASSOUCAAAECFQICqaINiiBAgAABgWQOECBAgECFgECqaIMiCBAgQEAgmQMECBAgUCEgkCraoAgCBAgQEEjmAAECBAhUCAikijYoggABAgQEkjlAgAABAhUCAqmiDYogQIAAAYFkDhAgQIBAhYBAqmiDIggQIEBAIJkDBAgQIFAhIJAq2qAIAgQIEBBI5gABAgQIVAgIpIo2KIIAAQIEBJI5QIAAAQIVAgKpog2KIECAAAGBZA4QIECAQIWAQKpogyIIECBAQCCZAwQIECBQISCQKtqgCAIECBAQSOYAAQIECFQICKSKNiiCAAECBASSOUCAAAECFQICqaINiiBAgAABgWQOECBAgECFgECqaIMiCBAgQEAgmQMECBAgUCEgkCraoAgCBAgQEEjmAAECBAhUCAikijYoggABAgQEkjlAgAABAhUCAqmiDYogQIAAAYFkDhAgQIBAhYBAqmiDIggQIEBAIJkDBAgQIFAhIJAq2qAIAgQIEBBI5gABAgQIVAgIpIo2KIIAAQIEBJI5QIAAAQIVAgKpog2KIECAAAGBZA4QIECAQIWAQKpogyIIECBAQCCZAwQIECBQISCQKtqgCAIECBAQSOYAAQIECFQICKSKNiiCAAECBASSOUCAAAECFQICqaINiiBAgAABgWQOECBAgECFgECqaIMiCBAgQEAgmQMECBAgUCEgkCraoAgCBAgQEEjmAAECBAhUCAikijYoggABAgQEkjlAgAABAhUCAqmiDYogQIAAAYFkDhAgQIBAhYBAqmiDIggQIEBAIJkDBAgQIFAhIJAq2qAIAgQIEBBI5gABAgQIVAgIpIo2KIIAAQIEBJI5QIAAAQIVAgKpog2KIECAAAGBZA4QIECAQIWAQKpogyIIECBAQCCZAwQIECBQISCQKtqgCAIECBAQSOYAAQIECFQICKSKNiiCAAECBASSOUCAAAECFQICqaINiiBAgAABgWQOECBAgECFgECqaIMiCBAgQEAgmQMECBAgUCEgkCraoAgCBAgQEEjmAAECBAhUCAikijYoggABAgQEkjlAgAABAhUCAqmiDYogQIAAAYFkDhAgQIBAhYBAqmiDIggQIEBAIJkDBAgQIFAhIJAq2qAIAgQIEBBI5gABAgQIVAgIpIo2KIIAAQIEBJI5QIAAAQIVAgKpog2KIECAAAGBZA4QIECAQIWAQKpogyIIECBAQCCZAwQIECBQISCQKtqgCAIECBAQSOYAAQIECFQICKSKNiiCAAECBASSOUCAAAECFQICqaINiiBAgAABgWQOECBAgECFgECqaIMiCBAgQEAgmQMECBAgUCEgkCraoAgCBAgQEEjmAAECBAhUCAikijYoggABAgQEkjlAgAABAhUCAqmiDYogQIAAAYFkDhAgQIBAhYBAqmiDIggQIEBAIJkDBAgQIFAhIJAq2qAIAgQIEBBI5gABAgQIVAgIpIo2KIIAAQIEBJI5QIAAAQIVAgKpog2KIECAAAGBZA4QIECAQIWAQKpogyIIECBAQCCZAwQIECBQISCQKtqgCAIECBAQSOYAAQIECFQICKSKNiiCAAECBASSOUCAAAECFQICqaINiiBAgAABgWQOECBAgECFgECqaIMiCBAgQEAgmQMECBAgUCHwfEUViqgU+MhHPnL19re//bq2V1999eqHP/zh1X//+9+za33zm9989Z73vOcqH59//vmrN77xjVf/+Mc/rv7+97//37///Oc/Z+/v8MDsK3W99a1vvd7vc889d/XPf/7z+t8f//jHq9T6GLeMO2O9z/avf/3rrKftZbvXfs8alAddjIBAuphWPdtCEySf/OQnn3jRn/zkJ2cF0jve8Y7r577zne984vnHvvjFL35xlf2eEyI5qCUkP/zhD1+94Q3HF/f//ve/r377299e/fSnP726T9gdq7Hle1/96ldvHPdtNb7yyitXf/7zn2982F62e+33xoH4wUULCKSLbt8+xb/pTW+6euGFF+618wTGJz7xibN/k8/jE37f+973rv7617/e+Jpvectbrl566aWr1HZqywEwgfXud7/76jvf+c71SuzU4y/lZxn3TSF8zhhOraz2st1rv+eM12MuU+D4r5mXORZVPyWBz372s9enwu66u/e9733XK6NTB79j+8ypty984Qs3vmYOxi+++OKtYbTu+7Z9ro+9hM9zcN9j28t2r/3uYWCfPQJWSD29qKjkox/96NW73vWuO9eSlclnPvOZ1zwv1y5yXecvf/nL9fWjXE9673vfe70qWh+c60s5Rfj9739//fb155/+9KevtgfkXMvKfv/0pz9dn+5LzVkVZT+HLQfF1JSV0qVv2/HndORdrufddPpyL9u99nvpfVT/aQGBdNpn1E9zo8DHP/7xe435/e9//xNhkJ3kBoZcu9heUP/1r399HUqf+9znnji194EPfODqV7/61XV4HYp429vedv3Yw9f5mANx9rue4svzEnZf+tKXnlhpJfyyj7/97W/rLi7u820gffe7370O5IcMZC/bvfb7kLF67mUIOGV3GX3avcpcn9gGxF1eNGGybrnr7Vvf+tZrwujwmN///vfXNx4cvj58zCpn3T72sY+tX15/ftP1przmsRVWwvLSt5yCXLfcqfjQbS/bvfb70PF6fr+AQOrv0TOpcHuK5S4ripwmO9wefig2d88lIE5tecz2VFJ+uz5suRaVGx7WLUGWfzdtf/jDH65+97vfPfHjXNu675aAzKpx/ZdV121bQjDPycE5p0Fzo8U2VG7bx/rzdYWUFeJttutzj32+l+1e+z02Bt97fAIC6fH19M4jysFzXeEkJI6tNG7aca7VbLdToXF4bG713gbfGki5fXx7Z9k5+811pXXLwXwbmOvPT32eEEmorP9y08caENvn57Vyl2Kek1DKXYe5PnbXmz3W/a6vl1OhD932st1rvw8dr+dfhoBAuow+7VZlrrtkdbRueQPsXX4Dzz7W7S6/wZ96/9GxmytyI8Nt2zaQ8vhz3hN1bL+//OUvr2+cWH+WkDx2A0cek9DJz7bhk/dabcN33eepz3PDyHqzxtM4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"></video>  
+        </div> 
+    </div>
+    
+    <div class="modal" id="share-modal">
+        <div class="modal__content modal__content--share">
+            <button class="modal__close" type="button">
+                <img src="assets/images/icons/close.svg" alt="Close">
+            </button>
+    
+            <ul class="social">
+                <li class="social__item">
+                    <a class="social__link" href="https://www.instagram.com/dima.kolosovskyi/" target="_blank">
+                        <img src="assets/images/icons/instagram.png" alt="Instagram">
+                    </a>
+                </li>
+                <li class="social__item">
+                    <a class="social__link" href="https://twitter.com/d_kolosovskyi" target="_blank">
+                        <img src="assets/images/icons/twitter.png" alt="Twitter">
+                    </a>
+                </li>
+                <li class="social__item">
+                    <a class="social__link" href="https://www.facebook.com/dmitro.kolosovskyi.3" target="_blank">
+                        <img src="assets/images/icons/facebook.png" alt="Facebook">
+                    </a>
+                </li>
+                <li class="social__item">
+                    <a class="social__link" href="" target="_blank">
+                        <img src="assets/images/icons/copy.png" alt="Copy">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>    <div class="modal" id="contact-modal">
+        <div class="modal__content">
+            <button class="modal__close" type="button">
+                <img src="assets/images/icons/close.svg" alt="Close">
+            </button>
+    
+            <form action="/" class="form" method="post">
+                <div class="form__group form__group--mb">
+                    <input class="form__control" type="text" name="" id="" placeholder="Вашe ім'я" value="Дмитро Колосовський">
+                    <span class="form__line"></span>
+                </div>
+                <div class="form__group form__group--mb">
+                    <input class="form__control" type="email" name="" id="" placeholder="Ваш e-mail">
+                    <span class="form__line"></span>
+                </div>
+                <div class="form__group form__group--mb">
+                    <textarea class="form__control form__control--textarea " name="" id="" cols="30" rows="10" placeholder="Текст повідомлення"></textarea>  
+                    <span class="form__line"></span>
+                </div>
+                <div class="form__footer">
+                    <div class="form__group form__group--mb">
+                        <button class="btn btn--blue btn--rounded  btn--sm" type="submit">Відправити</button>
+                    </div>
+                </div>
+            </form>
+    
+            <ul class="modal__footer">
+                <li>
+                    email: <a href="mailto:kolosovskyi.dmytro@gmail.com">kolosovskyi.dmytro@gmail.com</a> 
+                </li> 
+                <li>
+                    тел: <a href="tel:+380689374099">+380689374099</a>
+                </li>
+            </ul>
+        </div>
+    </div>    <!-- JS -->
+    <script src="assets/js/app.js"></script>
+
+</body>
+
+</html>
